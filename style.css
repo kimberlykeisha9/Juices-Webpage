@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body {
+    background-color: #dd8089;
+    width: 100%
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    color: #a3e87f;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  .smoothie {
+      mix-blend-mode: darken;
+      height: 400pt
+  }
+
+* {
+    margin: 0
+}
+
+h1,
+h2 {
+    font-family: 'Sacramento', cursive !important;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+h2 {
+    font-size: 24pt
+}
+
+.selector {
+    background-color: white;
+    width: 450pt;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-p {
+    width: 160pt;
+    height: 240pt;
+}
+
+.purchase {
+    border-radius: 8pt;
+    box-shadow: 2pt 5pt 5pt rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 160pt;
+    height: 250pt;
+    background-color: #ad5353;
+    position: absolute;
+    left: 390pt;
+    top: 25%;
+    padding: 20pt 15pt;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.purchase p {
+    font-size: 10pt
+}
+
+h1,
+p {
+    color: #7b0932;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+    color: #a3e87f
+}
+
+.quantity-button {
+    background-color: #7b0932;
+    width: 20pt;
+    height: 20pt;
+    border: none;
+    color: #a3e87f;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10pt;
+    border-radius: 50%;
+    padding: 0
+}
+
+button {
+    background-color: #a3e87f;
+    width: 100%;
+    color: #7b0932;
+    border: none;
+    padding: 8pt;
+    border-radius: 8pt
+}
+
+.quantity {
+    color: #a3e87f
+}
+
+.logo {
+    width: 35pt;
+    height: 35pt;
+}
+
+.logo-color {
+    fill: #7b0932
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10pt
+}
+
+.display {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 400pt;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10pt
+}
+
+.dial {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-color: #ad5353;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectordial {
+    height: 37px;
+    width: 37px;
+    border-radius: 37px;
+    background-color: white;
+    position: absolute;
+    top: 214pt
+}
+
+.innerdial {
+    background-color: white;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50pt;
+    height: 200px;
+    border-radius: 200px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
